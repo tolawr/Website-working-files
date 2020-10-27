@@ -11,10 +11,10 @@
         <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
         <!-- Kingex v1.0 || ex nihilo || June 2020 -->
         <!-- style start -->
-        <link href="css/plugins.css" media="all" rel="stylesheet" type="text/css">
-        <link href="css/style.css" media="all" rel="stylesheet" type="text/css"><!-- style end -->
+        <link href="../public/css/plugins.css" media="all" rel="stylesheet" type="text/css">
+        <link href="../public/css/style.css" media="all" rel="stylesheet" type="text/css"><!-- style end -->
         <!-- google fonts start -->
-        <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7COswald:300,400,700" rel="stylesheet" type="text/css"><!-- google fonts end -->
+        <link href="//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7COswald:300,400,700" rel="stylesheet" type="text/css"><!-- google fonts end -->
     </head>
     <body>
         <!-- preloader start -->
@@ -97,7 +97,7 @@
                                 <div id="subscribe-wrapper">
                                     <div id="newsletter">
                                         <div class="newsletter">
-                                            <form action="subscribe.php" id="subscribe" method="post" name="subscribe">
+                                            <form action="../public/subscribe.php" id="subscribe" method="post" name="subscribe">
                                                 <input class="subscribe-requiredField subscribe-email" id="subscribe-email" name="subscribe-email" placeholder="Email" type="text"> 
                                                 <!-- button wrapper start -->
                                                 <div class="the-button-wrapper">
@@ -123,7 +123,7 @@
                 <div class="the-wrapper">
                     <!-- logo start -->
                     <div class="logo">
-                        <a href="#"><img alt="Logo" src="img/logo/logo.png"></a>
+                        <a href="#"><img alt="Logo" src="img/logo/logo-light.png"></a>
                     </div><!-- logo end -->
                     <!-- halves start -->
                     <div class="halves">
@@ -133,12 +133,12 @@
                             <div class="half-container">
                                 <div class="half-container-inner">
                                     <!-- bottom credits start -->
-                                    <div class="bottom-credits">
+                                    <div class="bottom-credits style-2">
                                         &copy; All Rights Reserved.
                                     </div><!-- bottom credits end -->
                                     <!-- social icons wrapper start -->
                                     <div class="social-icons-wrapper">
-                                        <div class="signature signature-social">
+                                        <div class="signature signature-social style-2">
                                             <!-- social icons start -->
                                             <ul>
                                                 <li>
@@ -154,15 +154,22 @@
                                         </div>
                                     </div><!-- social icons wrapper end -->
                                     <!-- newsletter launcher start -->
-                                    <div class="newsletter-launcher" id="open-newsletter">
+                                    <div class="newsletter-launcher style-2" id="open-newsletter">
                                         <span class="ion-ios-paperplane"></span>Newsletter sign up
                                     </div><!-- newsletter launcher end -->
-                                    <!-- single image start -->
-                                    <div class="hero-fullscreen overlay overlay-dark-20 cover-all">
+                                    <!-- hero bg start -->
+                                    <div class="hero-fullscreen overlay-video overlay-dark-20 cover-all">
                                         <div class="hero-fullscreen-FIX">
-                                            <div class="hero-bg bg-img-SINGLE"></div>
+                                            <!-- Vimeo video containment start -->
+                                            <div id="vimeo-videoContainment">
+                                                <!-- Vimeo video URL start -->
+                                                <iframe data-fullscreeneo="" src="https://player.vimeo.com/video/98929509?autoplay=1&amp;background=1&amp;hd=1&amp;loop=1"></iframe>
+                                                <!-- Vimeo video URL end -->
+                                            </div><!-- Vimeo video containment end -->
+                                            <!-- Vimeo video mobile IMG start -->
+                                            <div class="vimeo-bg"></div><!-- Vimeo video mobile IMG end -->
                                         </div>
-                                    </div><!-- single image end -->
+                                    </div><!-- hero bg end --> 
                                 </div>
                             </div><!-- half container end -->
                         </div><!-- half first end -->
@@ -441,7 +448,7 @@
                                                                 <div class="inner-divider"></div><!-- inner divider end -->
                                                                 <!-- the button wrapper start -->
                                                                 <div class="the-button-wrapper the-button-wrapper-right">
-                                                                    <a class="popup-photo" href="img/works/works-large/works-page-img-carousel-item-large-1.jpg" title="Lorem ipsum dolor sit amet.">
+                                                                    <a class="popup-photo" href="../public/img/works/works-large/works-page-img-carousel-item-large-1.jpg" title="Lorem ipsum dolor sit amet.">
                                                                     <div class="the-button">
                                                                         View gallery
                                                                     </div></a>
@@ -505,7 +512,7 @@
                                                                 <div class="inner-divider"></div><!-- inner divider end -->
                                                                 <!-- the button wrapper start -->
                                                                 <div class="the-button-wrapper the-button-wrapper-right">
-                                                                    <a class="popup-photo" href="img/works/works-large/works-page-img-carousel-item-large-3.jpg" title="Lorem ipsum dolor sit amet.">
+                                                                    <a class="popup-photo" href="../public/img/works/works-large/works-page-img-carousel-item-large-3.jpg" title="Lorem ipsum dolor sit amet.">
                                                                     <div class="the-button">
                                                                         View gallery
                                                                     </div></a>
@@ -641,7 +648,7 @@
                                                 <!-- section TXT start -->
                                                 <!-- contact form start -->
                                                 <div id="contact-form">
-                                                    <form action="contact.php" id="form" method="post" name="send">
+                                                    <form action="../public/contact.php" id="form" method="post" name="send">
                                                         <!-- col start -->
                                                         <div class="col-sm-12 col-md-12 col-lg-12">
                                                             <input class="requiredField name" id="name" name="name" placeholder="Name" type="text">
@@ -684,9 +691,9 @@
             </div><!-- contact section end -->
         </div><!-- fullPage end -->
         <!-- scripts start -->
-        <script src="js/plugins.js">
+        <script src="../public/js/plugins.js">
         </script> 
-        <script src="js/kingex.js">
+        <script src="../public/js/kingex.js">
         </script><!-- scripts end -->
     </body>
 </html>
