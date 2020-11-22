@@ -811,6 +811,7 @@ top: 130px;
 right: 130px;
 bottom: 130px;
 left: 130px;
+background: #222 !important;
 -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -843,7 +844,6 @@ left: 130px;
     right: 35px;
     bottom: 35px;
     left: 35px;
-    background: #222 !important;
   }
 }
 
