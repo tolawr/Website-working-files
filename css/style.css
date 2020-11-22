@@ -788,7 +788,6 @@ left: 0;
 top: 0;
 overflow: hidden;
 z-index: 0;
-background: #222 !important;
 }
 
 
@@ -1969,7 +1968,7 @@ z-index: 1;
 @media only screen and (max-width: 995px) {
   .to-top-arrow {
     color: #000;
-    background: #fff;
+    background: rgb(204, 195, 195);
   }
 }
 
@@ -2499,7 +2498,7 @@ background: #000;
 }
 
 .all-content.all-content-light {
-background: #fff;
+background: #222;
 }
 
 .all-content .all-content-inner {
