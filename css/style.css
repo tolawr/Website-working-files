@@ -190,6 +190,7 @@ line-height: 170%;
 }
 
 body {
+  background: #222;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
