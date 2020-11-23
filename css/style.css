@@ -2498,7 +2498,7 @@ background: #000;
 }
 
 .all-content.all-content-light {
-background: #222;
+background: #fff;
 }
 
 .all-content .all-content-inner {
@@ -2807,7 +2807,7 @@ font-weight: 600;
 position: relative;
 width: 100%;
 height: 100%;
-background: #222;
+background: #fff;
 -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
     -ms-border-radius: 50%;
