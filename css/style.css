@@ -3254,7 +3254,7 @@ background: #000;
 @media only screen and (max-width: 995px) {
   .owl-prev:before,
   .owl-next:before {
-    background: #fff;
+    background: #222;
   }
 }
 
